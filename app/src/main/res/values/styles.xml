@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="servi_navy">#07101E</color>
+    <color name="servi_panel">#101B2C</color>
+    <color name="servi_blue">#2878FF</color>
+    <color name="servi_cyan">#35C8FF</color>
+    <color name="servi_text">#F4F7FC</color>
+    <color name="servi_muted">#8FA2BC</color>
+
+    <style name="AppTheme" parent="android:style/Theme.Material.NoActionBar">
+        <item name="android:fontFamily">sans</item>
+        <item name="android:colorAccent">@color/servi_blue</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:statusBarColor">@color/servi_navy</item>
+        <item name="android:navigationBarColor">@color/servi_navy</item>
+        <item name="android:windowActionModeOverlay">true</item>
+        <item name="android:windowBackground">@color/servi_navy</item>
+        <item name="android:windowLightNavigationBar">false</item>
+    </style>
+</resources>
